@@ -1,6 +1,6 @@
 # Import necessary modules
-from scapy.all import sniff, IP, TCP, Raw
 from fpdf import FPDF
+from scapy.all import sniff, IP, TCP, Raw
 
 # Create a list to store captured packets
 captured_packets = []
